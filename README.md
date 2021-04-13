@@ -3,8 +3,8 @@
 ## `NaN` değer elde etmek:
 
 ```
-import `math`
-import `numpy`as ``np``
+import math
+import numpy as np
 
 * float("nan")
 * math.nan
