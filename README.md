@@ -1,6 +1,6 @@
 # Veri Analizi Kaynak
 
-- `NaN` değer elde etmek:
+## `NaN` değer elde etmek:
 
 ```python
 import math
