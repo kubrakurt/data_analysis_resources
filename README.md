@@ -1,9 +1,9 @@
 # Veri Analizi Kaynak
 
-## NaN değer elde etmek:
+## `NaN` değer elde etmek:
 
 ```yaml
-import: math
+import math
 import numpy as np
 
 * float("nan")
