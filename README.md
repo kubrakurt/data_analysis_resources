@@ -21,6 +21,5 @@ np.nan
 ## Kaynaklar
 
 ```
-yaml
-- [Real Python](https://realpython.com/)
+[Real Python](https://realpython.com/)
 ```
