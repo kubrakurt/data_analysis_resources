@@ -1,1 +1,1 @@
-# data_analysis_resource
+# Veri Analizi Kaynak
