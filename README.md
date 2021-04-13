@@ -9,6 +9,8 @@
 
 ## Eksik Değer (NaN) Elde Etmek
 
+Bu işlevlerin hepsini birbirinin yerine kullanabilirsiniz.
+
 ```python
 import math
 import numpy as np
