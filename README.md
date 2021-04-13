@@ -2,7 +2,7 @@
 
 <!-- TOC -->
 
-- ## Eksik Değerler
+- ## Eksik Değer (NaN)
   - [Eksik Değer (NaN) Elde Etmek](#nan-değer-elde-etmek)
 
 <!-- /TOC -->
