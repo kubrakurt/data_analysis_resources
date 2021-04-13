@@ -12,7 +12,10 @@
 ## Ortalama
 
 ```python
->>> statistics.mean(x)
+x.mean()
+np.mean(x)
+statistics.mean(x)
+statistics.fmean(x)
 ```
 
 ## Eksik Değer (NaN) Elde Etmek
@@ -20,12 +23,11 @@
 Bu işlevlerin hepsi birbirine eş değerdir. O yüzden birbirlerinin yerine kullanabilirsiniz.
 
 ```python
->>> float("nan")
->>> math.nan
->>> np.nan
+float("nan")
+math.nan
+np.nan
 
 >>> math.isnan(np.nan), np.isnan(math.nan)
-
 (True, True)
 ```
 
