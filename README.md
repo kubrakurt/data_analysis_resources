@@ -1,4 +1,4 @@
-# Veri Analizi Kaynak
+# Veri Analizi
 
 <!-- TOC -->
 
