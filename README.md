@@ -7,13 +7,13 @@ import math
 import numpy as np
 ```
 
-```
+```python
 float("nan")
 math.nan
 np.nan
 ```
 
-```
+```python
 >>> math.isnan(np.nan), np.isnan(math.nan)
 (True, True)
 ```
