@@ -2,7 +2,7 @@
 
 ## `NaN` değer elde etmek:
 
-```
+```python
 import math
 import numpy as np
 
