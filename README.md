@@ -9,7 +9,7 @@
 
 ## Eksik Değer (NaN) Elde Etmek
 
-Bu işlevlerin hepsi birbirine eş değerdir. Bu sebeple birbirlerinin yerine kullanabilirsiniz.
+Bu işlevlerin hepsi birbirine eş değerdir. O yüzden birbirlerinin yerine kullanabilirsiniz.
 
 ```python
 import math
