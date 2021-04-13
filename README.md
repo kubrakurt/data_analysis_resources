@@ -2,12 +2,12 @@
 
 <!-- TOC -->
 
-- ## Eksik Değer
-  - [NaN Değer Elde Etmek](##`NaN`-değer-elde-etmek:)
+- ## Eksik Değerler
+  - [NaN Değer Elde Etmek](#`NaN`-değer-elde-etmek:)
 
 <!-- /TOC -->
 
-## `NaN` değer elde etmek:
+## `NaN` Değer Elde Etmek:
 
 ```python
 import math
