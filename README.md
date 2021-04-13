@@ -1,5 +1,5 @@
 # Veri Analizi Kaynak
-## [Eksik Değer](## `NaN` değer elde etmek:)
+## [Eksik Değer](##`NaN`-değer-elde-etmek:)
 
 - ## `NaN` değer elde etmek:
 
