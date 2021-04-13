@@ -16,9 +16,11 @@ np.nan
 (True, True)
 >>> math.isnan(y_with_nan[3]), np.isnan(y_with_nan[3])
 (True, True)
+```
 
 ## Kaynaklar
 
-```yaml
+```
+yaml
 - [Real Python](https://realpython.com/)
 ```
