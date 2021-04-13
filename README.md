@@ -20,6 +20,4 @@ np.nan
 
 ## Kaynaklar
 
-```
 [Real Python](https://realpython.com/)
-```
