@@ -14,6 +14,7 @@
 ```python
 x.mean()
 np.mean(x)
+np.nanmean(x) # NaN değer varsa göz ardı edilir.
 statistics.mean(x)
 statistics.fmean(x)
 ```
