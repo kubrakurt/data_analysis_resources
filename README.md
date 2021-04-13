@@ -3,11 +3,11 @@
 <!-- TOC -->
 
 - ## Eksik Değerler
-  - [NaN Değer Elde Etmek](#kaynaklar)
+  - [NaN Değer Elde Etmek](#nan-değer-elde-etmek)
 
 <!-- /TOC -->
 
-## `NaN` Değer Elde Etmek:
+## NaN Değer Elde Etmek
 
 ```python
 import math
