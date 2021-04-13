@@ -9,6 +9,9 @@ import numpy as np
 float("nan")
 math.nan
 np.nan
+
+>>> math.isnan(np.nan), np.isnan(math.nan)
+(True, True)
 ```
 
 ```python
