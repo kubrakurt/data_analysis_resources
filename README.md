@@ -6,7 +6,7 @@
 import math
 import numpy as np
 
-* float("nan")
-* math.nan
-* np.nan
+- float("nan")
+- math.nan
+- np.nan
 ```
