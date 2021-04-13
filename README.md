@@ -4,7 +4,7 @@
 
 ```
 import `math`
-import `numpy`as `np`
+import `numpy`as ``np``
 
 * float("nan")
 * math.nan
