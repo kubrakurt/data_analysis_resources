@@ -5,7 +5,7 @@
 - ## Eksik Değer
   - [NaN Değer Elde Etmek](##`NaN`-değer-elde-etmek:)
 
-- ## `NaN` değer elde etmek:
+## `NaN` değer elde etmek:
 
 ```python
 import math
