@@ -7,7 +7,7 @@
 
 <!-- /TOC -->
 
-## NaN Değer Elde Etmek
+## Eksik Değer (NaN) Elde Etmek
 
 ```python
 import math
