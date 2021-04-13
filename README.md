@@ -12,9 +12,6 @@
 Bu işlevlerin hepsi birbirine eş değerdir. O yüzden birbirlerinin yerine kullanabilirsiniz.
 
 ```python
-import math
-import numpy as np
-
 float("nan")
 math.nan
 np.nan
