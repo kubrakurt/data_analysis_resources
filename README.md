@@ -14,6 +14,7 @@ np.nan
 ```python
 >>> math.isnan(np.nan), np.isnan(math.nan)
 (True, True)
+
 >>> math.isnan(y_with_nan[3]), np.isnan(y_with_nan[3])
 (True, True)
 ```
