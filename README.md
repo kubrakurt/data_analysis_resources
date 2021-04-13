@@ -3,7 +3,7 @@
 <!-- TOC -->
 
 - ## Eksik Değerler
-  - [NaN Değer Elde Etmek](#NaN-değer-elde-etmek:)
+  - [NaN Değer Elde Etmek](#kaynaklar)
 
 <!-- /TOC -->
 
