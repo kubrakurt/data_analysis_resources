@@ -41,18 +41,29 @@ df = pd.DataFrame({"A": [1, 2, 3, 4, 5],
                    "B": ["a", "b", "c", "d", "e"],
                    "C": [1.1, "1.0", "1.3", 2, 5]})
     
-# Belirli değişkenlerin sözlük aracılığı ile hangi tipe dönüştürmek istediğimizi giriyoruz.
+# Sözlük aracılığı ile dönüştürülebilir.
 
 convert_dict = {"A": int,
                 "C": float}
                 
 df = df.astype(convert_dict)
 
-# Apply fonksiyonunu kullanabiliriz.
+# Apply fonksiyonunu kullanılabilir.
 
 df[["A", "C"]] = df[["A", "C"]].apply(pd.to_numeric)
+
+# infer_objects() fonksiyonu kullanılabilir.
+# Sadece numerik tipe dönüştürülebilecekleri dönüştürüyor.
+
+df = pd.DataFrame({"A": [1, 2, 3, 4, 5],
+                   "B": ["a", "b", "c", "d", "e"],
+                   "C": [1.1, 2.1, 3.0, 4.1, 5.1]}, 
+                   dtype = "object")
+
+df = df.infer_objects()
 ```
 
 ## Kaynaklar
 
-[Real Python](https://realpython.com/)
+[RealPython](https://realpython.com/)
+[GeeksforGeeks](https://www.geeksforgeeks.org/)
