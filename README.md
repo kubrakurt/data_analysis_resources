@@ -7,7 +7,7 @@
 - ## Eksik Değer (NaN)
   - [Eksik Değer (NaN) Elde Etmek](#nan-değer-elde-etmek)
 - ## Veri Tipleri
-  - [Birden Veri Tipini Değiştirmek](#birden-fazla-değişken-tipini-değiştirmek)
+  - [Birden Fazla Değişken Tipini Değiştirmek](#birden-fazla-değişken-tipini-değiştirmek)
 
 <!-- /TOC -->
 
