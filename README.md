@@ -50,7 +50,7 @@ df = df.astype(convert_dict)
 
 # Apply fonksiyonu ile değiştirilebilir.
 
-df[["A", "C"]] = df[["A", "C"]].apply(pd.to_numeric)
+df[["A","C"]] = df[["A","C"]].apply(pd.to_numeric)
 
 # infer_objects() fonksiyonu ile değiştirilebilir.
 # Sadece numerik tipe dönüştürülebilecekleri dönüştürüyor.
