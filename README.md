@@ -48,11 +48,11 @@ convert_dict = {"A": int,
                 
 df = df.astype(convert_dict)
 
-# Apply fonksiyonunu kullanılabilir.
+# Apply fonksiyonu ile değiştirilebilir.
 
 df[["A", "C"]] = df[["A", "C"]].apply(pd.to_numeric)
 
-# infer_objects() fonksiyonu kullanılabilir.
+# infer_objects() fonksiyonu ile değiştirilebilir.
 # Sadece numerik tipe dönüştürülebilecekleri dönüştürüyor.
 
 df = df.infer_objects()
