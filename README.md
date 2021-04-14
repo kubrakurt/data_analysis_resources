@@ -60,5 +60,5 @@ df = df.infer_objects()
 
 ## Kaynaklar
 
-[RealPython](https://realpython.com/)
-[GeeksforGeeks](https://www.geeksforgeeks.org/)
+* [RealPython](https://realpython.com/)
+* [GeeksforGeeks](https://www.geeksforgeeks.org/)
