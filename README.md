@@ -62,3 +62,4 @@ df = df.infer_objects()
 
 * [RealPython](https://realpython.com/)
 * [GeeksforGeeks](https://www.geeksforgeeks.org/)
+* [Data Analysis with Python](https://www.coursera.org/learn/data-analysis-with-python)
