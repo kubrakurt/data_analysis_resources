@@ -1,4 +1,4 @@
-# Veri Analizi
+<h1 align="center"> Veri Analizi </h1>
 
 <!-- TOC -->
 
