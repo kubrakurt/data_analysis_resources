@@ -11,7 +11,7 @@
 - ## İstatistik
   - [Ortalama](#ortalama)    
 - ## Eksik Değer (NaN)
-  - [Eksik Değer (NaN) Elde Etmek](#nan-değer-elde-etmek)
+  - [Eksik Değer (NaN) Elde Etmek](#eksik-değer-(nan)-elde-etmek)
 - ## Veri Tipleri
   - [Birden Fazla Değişken Tipini Değiştirmek](#birden-fazla-değişken-tipini-değiştirmek)
 
