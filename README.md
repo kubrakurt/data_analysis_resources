@@ -11,7 +11,7 @@
 - ## İstatistik
   - [Ortalama](#ortalama)    
 - ## Eksik Değer (NaN)
-  - [Eksik Değer (NaN) Elde Etmek](#eksik-değer-(nan)-elde-etmek)
+  - [Eksik Değer (NaN) Elde Etmek](#eksik-değer-elde-etmek)
 - ## Veri Tipleri
   - [Birden Fazla Değişken Tipini Değiştirmek](#birden-fazla-değişken-tipini-değiştirmek)
 
@@ -27,7 +27,7 @@ statistics.mean(x)
 statistics.fmean(x)
 ```
 
-## Eksik Değer (NaN) Elde Etmek
+## Eksik Değer Elde Etmek
 
 Bu işlevlerin hepsi birbirine eş değerdir. O yüzden birbirlerinin yerine kullanabilirsiniz.
 
