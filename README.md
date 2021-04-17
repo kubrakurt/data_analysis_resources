@@ -4,6 +4,7 @@
 
   * [Aykırı Gözlem Analizi](https://github.com/kubrakurt/data_analysis_resource/blob/main/%C3%96rnek%20Analizler/Ayk%C4%B1r%C4%B1%20G%C3%B6zlem%20Analizi.ipynb)
   * [Eksik Veri Analizi](https://github.com/kubrakurt/data_analysis_resource/blob/main/%C3%96rnek%20Analizler/Eksik%20Veri%20Analizi.ipynb)
+  * [Kategorik Değişkenlerde Eksik Veri Analizi](https://github.com/kubrakurt/data_analysis_resource/blob/main Örnek%20Analizler/Kategorik%20Değişkenlerde%20Eksik%20Veri%20Analizi.ipynb)
   * [Python ile Veri Analizi](https://github.com/kubrakurt/data_analysis_resource/blob/main/%C3%96rnek%20Analizler/Python%20ile%20Veri%20Analizi.ipynb)
 
 <!-- TOC -->
