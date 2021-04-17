@@ -11,7 +11,7 @@
 
 * ## Droplama İşlemleri
   * [Tekrar Eden Satırları Silmek](#tekrar-eden-satırları-silmek)
-* ## Eksik Değer (NaN)
+* ## Eksik Değer
   * [Eksik Değer Elde Etmek](#eksik-değer-elde-etmek)
 * ## İstatistik
   * [Ortalama](#ortalama)
