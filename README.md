@@ -14,6 +14,8 @@
   - [Eksik Değer Elde Etmek](#eksik-değer-elde-etmek)
 - ## Veri Tipleri
   - [Birden Fazla Değişken Tipini Değiştirmek](#birden-fazla-değişken-tipini-değiştirmek)
+- ## Zaman
+  - [Kod Çalışma Süresi](#kod-çalışma-süresi)
 
 <!-- /TOC -->
 
@@ -62,6 +64,17 @@ df[["A","C"]] = df[["A","C"]].apply(pd.to_numeric)
 # Sadece numerik tipe dönüştürülebilecekleri dönüştürüyor.
 
 df = df.infer_objects()
+```
+
+## Kod Çalışma Süresi
+
+```python
+start_time = datetime.now() 
+
+#Kodlarınız
+
+time_elapsed = datetime.now() - start_time
+print("\n" "Time Elapsed:", "{}".format(time_elapsed))
 ```
 
 ## Kaynaklar
