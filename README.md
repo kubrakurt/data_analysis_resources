@@ -8,10 +8,14 @@
 
 <!-- TOC -->
 
-* ## İstatistik
-  * [Ortalama](#ortalama)    
+* ## Droplama İşlemleri
+  * [Tekrar Eden Satırları Silmek](#tekrar-eden-satırları-silmek)
 * ## Eksik Değer (NaN)
   * [Eksik Değer Elde Etmek](#eksik-değer-elde-etmek)
+* ## İstatistik
+  * [Ortalama](#ortalama)
+* ## Veri Oluşturmak
+  * [İki Listeyi Veri Olarak Birleştirmek](#iki-listeyi-veri-olarak-birleştirmek)
 * ## Veri Tipleri
   * [Birden Fazla Değişken Tipini Değiştirmek](#birden-fazla-değişken-tipini-değiştirmek)
 * ## Zaman
@@ -19,14 +23,10 @@
 
 <!-- /TOC -->
 
-## Ortalama
+## Tekrar Eden Satırları Silmek
 
 ```python
-x.mean()
-np.mean(x)
-np.nanmean(x) # NaN değer varsa göz ardı edilir.
-statistics.mean(x)
-statistics.fmean(x)
+df.drop_duplicates()
 ```
 
 ## Eksik Değer Elde Etmek
@@ -40,6 +40,22 @@ np.nan
 
 >>> math.isnan(np.nan), np.isnan(math.nan)
 (True, True)
+```
+
+## Ortalama
+
+```python
+x.mean()
+np.mean(x)
+np.nanmean(x) # NaN değer varsa göz ardı edilir.
+statistics.mean(x)
+statistics.fmean(x)
+```
+
+## İki Listeyi Veri Olarak Birleştirmek
+
+```python
+df = pd.merge(liste1, liste2, on = "NEYE GÖRE BİRLEŞECEK (örn. liste1.index)")
 ```
 
 ## Birden Fazla Değişken Tipini Değiştirmek
