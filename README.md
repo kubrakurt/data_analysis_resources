@@ -1,6 +1,6 @@
 <h1 align="center"> Veri Analizi </h1>
 
-## Örnek Veri Analizleri
+- ## Örnek Veri Analizleri
 
 * [Aykırı Gözlem Analizi](https://github.com/kubrakurt/data_analysis_resource/blob/main/%C3%96rnek%20Analizler/Ayk%C4%B1r%C4%B1%20G%C3%B6zlem%20Analizi.ipynb)
 * [Eksik Veri Analizi](https://github.com/kubrakurt/data_analysis_resource/blob/main/%C3%96rnek%20Analizler/Eksik%20Veri%20Analizi.ipynb)
