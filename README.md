@@ -74,7 +74,7 @@ start_time = datetime.now()
 #Kodlarınız
 
 time_elapsed = datetime.now() - start_time
-print("\n" "Time Elapsed:", "{}".format(time_elapsed))
+print("Time Elapsed:", "{}".format(time_elapsed))
 ```
 
 ## Kaynaklar
