@@ -19,13 +19,14 @@
   * [Eksik Değer Elde Etmek](#eksik-değer-elde-etmek)
 * ## İstatistik
   * [Ortalama](#ortalama)
-* ## Veri Oluşturmak
+* ## Veri Oluşturmak & Birleştirmek
   * [İki Listeyi Veri Olarak Birleştirmek](#iki-listeyi-veri-olarak-birleştirmek)
   * [Verileri Satır Bazında Birleştirmek](#verileri-satır-bazında-birleştirmek)
   * [Verileri Satır Bazında Gruplayarak Birleştirmek](#verileri-satır-bazında-gruplayarak-birleştirmek)
   * [Verileri Sütun Bazında Birleştirmek](#verileri-sütun-bazında-birleştirmek)
   * [Verileri Sütun Bazında Eksik Değerli Satırları Almadan Birleştirmek](#verileri-sütun-bazında-eksik-değerli-satırları-almadan-birleştirmek)
   * [Verileri Sütun Bazında Eksik Değerleri Azaltacak Şekilde Birleştirmek](#verileri-sütun-bazında-eksik-değerleri-azaltacak-şekilde-birleştirmek)
+  * [DataFrame Tipteki Verilerin Sütun Değerlerini Birleştirmek](#dataframe-tipteki-verilerin-sütun-değerlerini-birleştirmek)
 * ## Veri Tipleri
   * [Birden Fazla Değişken Tipini Değiştirmek](#birden-fazla-değişken-tipini-değiştirmek)
 * ## Zaman
@@ -104,6 +105,15 @@ pd.concat(frames, axis=1, join="inner")
 pd.concat(frames, axis=1).reindex(df1.index)
 ```
 <p align="left"> <img src="https://pandas.pydata.org/pandas-docs/stable/_images/merging_concat_axis1_join_axes.png" /> </p>
+
+## DataFrame Tipteki Verilerin Sütun Değerlerini Birleştirmek
+
+```python
+df["New Column Name"] = df["1st Column Name"] + df["2nd Column Name"]
+df["New Column Name"] = df["1st Column Name"].map(str) + df["2nd Column Name"].map(str)
+df["Full Date"] = df["Day"].map(str) + "-" + df["Month"].map(str) + "-" + df["Year"].map(str)
+```
+<p align="left"> <img src="https://datatofish.com/wp-content/uploads/2018/09/00_combined_values.png" /> </p>
 
 ## Birden Fazla Değişken Tipini Değiştirmek
 
