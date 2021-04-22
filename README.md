@@ -21,6 +21,7 @@
   * [Ortalama](#ortalama)
 * ## Veri Oluşturmak
   * [İki Listeyi Veri Olarak Birleştirmek](#iki-listeyi-veri-olarak-birleştirmek)
+  * [Verileri Satır Bazında Birleştirmek](#verileri-satır-bazında-birleştirmek)
 * ## Veri Tipleri
   * [Birden Fazla Değişken Tipini Değiştirmek](#birden-fazla-değişken-tipini-değiştirmek)
 * ## Zaman
@@ -62,6 +63,15 @@ statistics.fmean(x)
 ```python
 df = pd.merge(liste1, liste2, on = "NEYE GÖRE BİRLEŞECEK (örn. liste1.index)")
 ```
+
+## Verileri Satır Bazında Birleştirmek
+
+```python
+frames = [df1, df2, df3]
+pd.concat(frames)
+```
+
+<p align="left"> <img src="https://pandas.pydata.org/pandas-docs/stable/_images/merging_concat_basic.png" /> </p>
 
 ## Birden Fazla Değişken Tipini Değiştirmek
 
