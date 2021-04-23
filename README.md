@@ -75,6 +75,13 @@ print(f"this is counter {counter}")
 
 print(f"this is counter {0}".format(counter))
 >>> this is counter 5
+
+def greet(name):
+    return "Hello, " + name
+    
+name = "Github"
+print(f"{greet(name)}")
+>>> Hello, Github
 ```
 
 ## İki Listeyi Veri Olarak Birleştirmek
