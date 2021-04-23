@@ -17,6 +17,7 @@
   * [Tekrar Eden Satırları Silmek](#tekrar-eden-satırları-silmek)
 * ## Eksik Değer
   * [Eksik Değer Elde Etmek](#eksik-değer-elde-etmek)
+  * [Eksik Değerleri Yüzdelikleri ile Görmek](#eksik-değerleri-yüzdelikleri-ile-görmek)
 * ## İstatistik
   * [Ortalama](#ortalama)
 * ## Veri Biçimlendirmek
@@ -53,6 +54,19 @@ np.nan
 
 >>> math.isnan(np.nan), np.isnan(math.nan)
 (True, True)
+```
+
+## Eksik Değerleri Yüzdelikleri ile Görmek
+
+```python
+def missing_value_chart(df): 
+    missing_value = df.isnull().sum()
+    missing_value_percent = 100 * df.isnull().sum()/len(df)
+    missing_value_chart = pd.concat([eksik_deger, eksik_deger_yuzde], axis=1)
+    missing_value_chart_end = missin_value_chart.rename(columns = {0: "Missing Value", 1: "% Value"})
+    return missing_value_chart_end
+  
+missing_value_chart(df)
 ```
 
 ## Ortalama
