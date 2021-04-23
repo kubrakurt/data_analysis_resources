@@ -19,6 +19,8 @@
   * [Eksik Değer Elde Etmek](#eksik-değer-elde-etmek)
 * ## İstatistik
   * [Ortalama](#ortalama)
+* ## Veri Biçimlendirmek
+  * [f-Strings](#f-Strings)
 * ## Veri Oluşturmak & Birleştirmek
   * [İki Listeyi Veri Olarak Birleştirmek](#iki-listeyi-veri-olarak-birleştirmek)
   * [Verileri Satır Bazında Birleştirmek](#verileri-satır-bazında-birleştirmek)
