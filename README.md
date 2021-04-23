@@ -76,10 +76,11 @@ print(f"this is counter {counter}")
 print(f"this is counter {0}".format(counter))
 >>> this is counter 5
 
+name = "Github"
+
 def greet(name):
     return "Hello, " + name
-    
-name = "Github"
+
 print(f"{greet(name)}")
 >>> Hello, Github
 ```
