@@ -83,6 +83,17 @@ def greet(name):
 
 print(f"{greet(name)}")
 >>> Hello, Github
+
+class Sample:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        return f"{self.name} is {self.age} years old."
+        
+john = Sample("John", 19)
+print(f"{john}")
+>>> John is 19 years old.
 ```
 
 ## İki Listeyi Veri Olarak Birleştirmek
