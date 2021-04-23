@@ -67,6 +67,16 @@ statistics.fmean(x)
 
 ## f-Strings
 
+```python
+counter = 5
+
+print(f"this is counter {counter}")
+>>> this is counter 5
+
+print(f"this is counter {0}".format(counter))
+>>> this is counter 5
+```
+
 ## İki Listeyi Veri Olarak Birleştirmek
 
 ```python
