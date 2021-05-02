@@ -33,6 +33,7 @@
   * [Ortalama](#ortalama)
 * ## Veri Biçimlendirmek
   * [f-Strings](#f-Strings)
+  * [ıi Küçültme ve Büyütme Sorunu](#iı-küçültme-ve-büyütme-sorunu)
 * ## Veri Oluşturmak, Birleştirmek & Ayırmak
   * [İki Listeyi Veri Olarak Birleştirmek](#iki-listeyi-veri-olarak-birleştirmek)
   * [Verileri Satır Bazında Birleştirmek](#verileri-satır-bazında-birleştirmek)
@@ -124,6 +125,46 @@ john = Sample("John", 19)
 
 print(f"{john}")
 >>> John is 19 years old.
+```
+
+## ıi Küçültme ve Büyütme Sorunu
+
+```python
+def trlower(metin):
+    sonuç = ""
+    for harf in metin:
+        if harf == "I":
+            harf = "ı"
+            sonuç += harf
+        elif harf == "İ":
+            harf = "i"
+            sonuç += harf
+        else:
+            sonuç += harf
+    sonuç = sonuç.lower()
+    return sonuç
+            
+x = "KIRKLARELİ"
+trlower(x)
+>>> 'kırklareli'
+
+def trupper(metin):
+    sonuç = ""
+    for harf in metin:
+        if harf == "ı":
+            harf = "I"
+            sonuç += harf
+        elif harf == "i":
+            harf = "İ"
+            sonuç += harf
+        else:
+            sonuç += harf
+    sonuç = sonuç.upper()
+    return sonuç
+            
+x = "kırklareli"
+trupper(x)
+>>>'KIRKLARELİ'
 ```
 
 ## İki Listeyi Veri Olarak Birleştirmek
