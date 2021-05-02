@@ -33,7 +33,7 @@
   * [Ortalama](#ortalama)
 * ## Veri Biçimlendirmek
   * [f-Strings](#f-Strings)
-  * [ıi Küçültme ve Büyütme Sorunu](#iı-küçültme-ve-büyütme-sorunu)
+  * [Ii Küçültme ve Büyütme Sorunu](#Ii-küçültme-ve-büyütme-sorunu)
 * ## Veri Oluşturmak, Birleştirmek & Ayırmak
   * [İki Listeyi Veri Olarak Birleştirmek](#iki-listeyi-veri-olarak-birleştirmek)
   * [Verileri Satır Bazında Birleştirmek](#verileri-satır-bazında-birleştirmek)
@@ -147,7 +147,8 @@ def trlower(metin):
 x = "KIRKLARELİ"
 trlower(x)
 >>> 'kırklareli'
-
+```
+```python
 def trupper(metin):
     sonuç = ""
     for harf in metin:
