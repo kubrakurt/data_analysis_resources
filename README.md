@@ -11,7 +11,7 @@
   * [Tahmine Dayalı Değer Atama Yöntemleri](https://github.com/kubrakurt/data_analysis_resource/blob/main/Örnek%20Analizler/Tahmine%20Dayalı%20Değer%20Atama%20Yöntemleri.ipynb)
   * [Veri Standardizasyonu](https://github.com/kubrakurt/data_analysis_resource/blob/main/Örnek%20Analizler/Veri%20Standardizasyonu.ipynb)
 
-* ## [Ezgzersizler](https://github.com/kubrakurt/data_analysis_resources/tree/main/Egzersizler)
+* ## [Egzersizler](https://github.com/kubrakurt/data_analysis_resources/tree/main/Egzersizler)
   * [1-Pandas Egzersizi](https://github.com/kubrakurt/data_analysis_resources/blob/main/Egzersizler/1%20-%20Pandas%20Egzersizi.ipynb)
 
 <!-- TOC -->
