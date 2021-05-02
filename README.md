@@ -13,6 +13,14 @@
 
 * ## [Egzersizler](https://github.com/kubrakurt/data_analysis_resources/tree/main/Egzersizler)
   * [1-Pandas Egzersizi](https://github.com/kubrakurt/data_analysis_resources/blob/main/Egzersizler/1%20-%20Pandas%20Egzersizi.ipynb)
+  * [2-Pandas Egzersizi](https://github.com/kubrakurt/data_analysis_resources/blob/main/Egzersizler/2%20-%20Pandas%20Egzersizi.ipynb)
+  * [3-Pandas Egzersizi](https://github.com/kubrakurt/data_analysis_resources/blob/main/Egzersizler/3%20-%20Pandas%20Egzersizi.ipynb)
+  * [4-Pandas Egzersizi](https://github.com/kubrakurt/data_analysis_resources/blob/main/Egzersizler/4%20-%20Pandas%20Egzersizi.ipynb)
+  * [5-Pandas Egzersizi](https://github.com/kubrakurt/data_analysis_resources/blob/main/Egzersizler/5%20-%20Pandas%20Egzersizi.ipynb)
+  * [6-Pandas Egzersizi](https://github.com/kubrakurt/data_analysis_resources/blob/main/Egzersizler/6%20-%20Pandas%20Egzersizi.ipynb)
+  * [7-Pandas Egzersizi](https://github.com/kubrakurt/data_analysis_resources/blob/main/Egzersizler/7%20-%20Pandas%20Egzersizi.ipynb)
+  * [8-Pandas Egzersizi](https://github.com/kubrakurt/data_analysis_resources/blob/main/Egzersizler/8%20-%20Pandas%20Egzersizi.ipynb)
+  * [9-Pandas Egzersizi](https://github.com/kubrakurt/data_analysis_resources/blob/main/Egzersizler/9%20-%20Pandas%20Egzersizi.ipynb)
 
 <!-- TOC -->
 
