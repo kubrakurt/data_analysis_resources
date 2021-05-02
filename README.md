@@ -127,7 +127,7 @@ print(f"{john}")
 >>> John is 19 years old.
 ```
 
-## ıi Küçültme ve Büyütme Sorunu
+## Ii Küçültme ve Büyütme Sorunu
 
 ```python
 def trlower(metin):
