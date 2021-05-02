@@ -1,6 +1,6 @@
 <h1 align="center"> Veri Analizi </h1>
 
-* ## Örnek Veri Analizleri
+* ## [Örnek Veri Analizleri](https://github.com/kubrakurt/data_analysis_resources/tree/main/Örnek%20Analizler)
 
   * [Aykırı Gözlem Analizi](https://github.com/kubrakurt/data_analysis_resource/blob/main/%C3%96rnek%20Analizler/Ayk%C4%B1r%C4%B1%20G%C3%B6zlem%20Analizi.ipynb)
   * [Değişken Dönüşümleri](https://github.com/kubrakurt/data_analysis_resource/blob/main/Örnek%20Analizler/Değişken%20Dönüşümleri.ipynb)
@@ -10,6 +10,9 @@
   * [Python ile Veri Analizi](https://github.com/kubrakurt/data_analysis_resource/blob/main/%C3%96rnek%20Analizler/Python%20ile%20Veri%20Analizi.ipynb)
   * [Tahmine Dayalı Değer Atama Yöntemleri](https://github.com/kubrakurt/data_analysis_resource/blob/main/Örnek%20Analizler/Tahmine%20Dayalı%20Değer%20Atama%20Yöntemleri.ipynb)
   * [Veri Standardizasyonu](https://github.com/kubrakurt/data_analysis_resource/blob/main/Örnek%20Analizler/Veri%20Standardizasyonu.ipynb)
+
+* ## [Ezgzersizler](https://github.com/kubrakurt/data_analysis_resources/tree/main/Egzersizler)
+  * [1-Pandas Egzersizi](https://github.com/kubrakurt/data_analysis_resources/blob/main/Egzersizler/1%20-%20Pandas%20Egzersizi.ipynb)
 
 <!-- TOC -->
 
