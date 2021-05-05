@@ -34,6 +34,7 @@
 * ## Veri Biçimlendirmek
   * [f-Strings](#f-Strings)
   * [Ii Küçültme ve Büyütme Sorunu](#Ii-küçültme-ve-büyütme-sorunu)
+  * [Kelime ve Gözlem Bazında Filtreleme](#kelime-ve-gözlem-bazında-filtreleme)
 * ## Veri Oluşturmak, Birleştirmek & Ayırmak
   * [İki Listeyi Veri Olarak Birleştirmek](#iki-listeyi-veri-olarak-birleştirmek)
   * [Verileri Satır Bazında Birleştirmek](#verileri-satır-bazında-birleştirmek)
@@ -166,6 +167,28 @@ def trupper(metin):
 x = "kırklareli"
 trupper(x)
 >>>'KIRKLARELİ'
+```
+## Kelime ve Gözlem Bazında Filtreleme
+
+```python
+# DataFrame
+df = pd.DataFrame({"col": ["foo", "foobar", "bar", "baz"]})
+
+# "foo" ile başlayıp devamı olan kelimeler:
+df[df["col"].str.contains(r"foo(?!$)")]
+>>> foobar
+```
+```python
+# Hem "foo" hem de "foo" ile başlayıp devamı olan kelimeler: 
+df[df["col"].str.contains("foo")]
+>>> foo
+>>> foobar
+```
+```python
+# regex=False alarak tüm karakterleri alabiliriz:
+df[df["col"].str.contains("foo", regex=False)]
+>>> foo
+>>> foobar
 ```
 
 ## İki Listeyi Veri Olarak Birleştirmek
