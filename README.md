@@ -270,12 +270,14 @@ df = df.infer_objects()
 ## Kod Çalışma Süresi
 
 ```python
+import datetime
+
 start_time = datetime.now() 
 
 #Kodlarınız
 
 time_elapsed = datetime.now() - start_time
-print("Time Elapsed:", "{}".format(time_elapsed))
+print(f"Time elapsed: {time_elapsed}")
 ```
 
 ## Kaynaklar
