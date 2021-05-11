@@ -270,7 +270,7 @@ df = df.infer_objects()
 ## Kod Çalışma Süresi
 
 ```python
-import datetime
+from datetime import datetime 
 
 start_time = datetime.now() 
 
