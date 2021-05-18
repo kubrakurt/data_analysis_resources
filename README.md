@@ -245,7 +245,7 @@ df["Full Date"] = df["Day"].map(str) + "-" + df["Month"].map(str) + "-" + df["Ye
 ```
 <p align="left"> <img src="https://datatofish.com/wp-content/uploads/2018/09/00_combined_values.png" /> </p>
 
-## Veri Ön İzleme
+## Veri İzleme
 
 Verinin tamamını görebilmek için uygulanır.
 
