@@ -44,7 +44,7 @@
   * [Verileri Sütun Bazında Eksik Değerleri Azaltacak Şekilde Birleştirmek](#verileri-sütun-bazında-eksik-değerleri-azaltacak-şekilde-birleştirmek)
   * [DataFrame Tipteki Verilerin Sütun Değerlerini Birleştirmek](#dataframe-tipteki-verilerin-sütun-değerlerini-birleştirmek)
 * ## Veri Ön İzleme
-  * [Veri-Ön-İzleme](#veri-ön-izleme)
+  * [Veri Ön İzleme](#veri-ön-izleme)
 * ## Veri Tipleri
   * [Birden Fazla Değişken Tipini Değiştirmek](#birden-fazla-değişken-tipini-değiştirmek)
 * ## Zaman
