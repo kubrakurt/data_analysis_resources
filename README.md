@@ -43,8 +43,8 @@
   * [Verileri Sütun Bazında Eksik Değerli Satırları Almadan Birleştirmek](#verileri-sütun-bazında-eksik-değerli-satırları-almadan-birleştirmek)
   * [Verileri Sütun Bazında Eksik Değerleri Azaltacak Şekilde Birleştirmek](#verileri-sütun-bazında-eksik-değerleri-azaltacak-şekilde-birleştirmek)
   * [DataFrame Tipteki Verilerin Sütun Değerlerini Birleştirmek](#dataframe-tipteki-verilerin-sütun-değerlerini-birleştirmek)
-* ## Veri Ön İzleme
-  * [Veri İzleme](#veri-İzleme)
+* ## Veri İzleme
+  * [Verinin Tamamını Görmek](#verinin-tamamını-görmek)
 * ## Veri Tipleri
   * [Birden Fazla Değişken Tipini Değiştirmek](#birden-fazla-değişken-tipini-değiştirmek)
 * ## Zaman
@@ -245,7 +245,7 @@ df["Full Date"] = df["Day"].map(str) + "-" + df["Month"].map(str) + "-" + df["Ye
 ```
 <p align="left"> <img src="https://datatofish.com/wp-content/uploads/2018/09/00_combined_values.png" /> </p>
 
-## Veri İzleme
+## Verinin Tamamını Görebilmek
 
 Verinin tamamını görebilmek için uygulanır.
 
