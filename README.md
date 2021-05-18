@@ -43,6 +43,8 @@
   * [Verileri Sütun Bazında Eksik Değerli Satırları Almadan Birleştirmek](#verileri-sütun-bazında-eksik-değerli-satırları-almadan-birleştirmek)
   * [Verileri Sütun Bazında Eksik Değerleri Azaltacak Şekilde Birleştirmek](#verileri-sütun-bazında-eksik-değerleri-azaltacak-şekilde-birleştirmek)
   * [DataFrame Tipteki Verilerin Sütun Değerlerini Birleştirmek](#dataframe-tipteki-verilerin-sütun-değerlerini-birleştirmek)
+* ## Veri Ön İzleme
+  * [Veri-Ön-İzleme](#veri-ön-izleme)
 * ## Veri Tipleri
   * [Birden Fazla Değişken Tipini Değiştirmek](#birden-fazla-değişken-tipini-değiştirmek)
 * ## Zaman
@@ -242,6 +244,16 @@ df["New Column Name"] = df["1st Column Name"].map(str) + df["2nd Column Name"].m
 df["Full Date"] = df["Day"].map(str) + "-" + df["Month"].map(str) + "-" + df["Year"].map(str)
 ```
 <p align="left"> <img src="https://datatofish.com/wp-content/uploads/2018/09/00_combined_values.png" /> </p>
+
+## Veri Ön İzleme
+
+Verinin tamamını görebilmek için uygulanır.
+
+```python
+pd.set_option("display.max_rows", 1000)
+pd.set_option("display.max_columns", 1000)
+pd.set_option("display.width", 1000)
+```
 
 ## Birden Fazla Değişken Tipini Değiştirmek
 
