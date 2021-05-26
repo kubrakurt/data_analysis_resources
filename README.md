@@ -1,5 +1,7 @@
 <h1 align="center"> Veri Analizi </h1>
 
+<p align="left"> <img src="https://media.giphy.com/media/3o6MbrACMlFCny8zmw/giphy.gif" /> </p>
+
 * ## [Örnek Veri Analizleri](https://github.com/kubrakurt/data_analysis_resources/tree/main/Örnek%20Analizler)
 
   * [Aykırı Gözlem Analizi](https://github.com/kubrakurt/data_analysis_resource/blob/main/%C3%96rnek%20Analizler/Ayk%C4%B1r%C4%B1%20G%C3%B6zlem%20Analizi.ipynb)
