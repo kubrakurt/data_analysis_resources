@@ -38,7 +38,7 @@
   * [Ii Küçültme ve Büyütme Sorunu](#Ii-küçültme-ve-büyütme-sorunu)
   * [Kelime ve Gözlem Bazında Filtreleme](#kelime-ve-gözlem-bazında-filtreleme)
 * ## Veri Oluşturmak, Birleştirmek & Ayırmak
-  * [İki Listeyi Veri Olarak Birleştirmek](#iki-listeyi-veri-olarak-birleştirmek)
+  * [İki Listeyi Veri Olarak Birleştirmek](#İki-listeyi-veri-olarak-birleştirmek)
   * [Verileri Satır Bazında Birleştirmek](#verileri-satır-bazında-birleştirmek)
   * [Verileri Satır Bazında Gruplayarak Birleştirmek](#verileri-satır-bazında-gruplayarak-birleştirmek)
   * [Verileri Sütun Bazında Birleştirmek](#verileri-sütun-bazında-birleştirmek)
