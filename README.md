@@ -3,7 +3,7 @@
 <p align="center"> <img src="https://media.giphy.com/media/3o6MbrACMlFCny8zmw/giphy.gif" /> </p>
 
 * ## Örnek Veri Analizleri
-  * [Su Kalitesi](https://github.com/kubrakurt/machine_learning_resources/blob/main/Örnek%20Projeler/Su%20Kalitesi/su-kalitesi.ipynb)
+  * [Su Kalitesi](https://www.kaggle.com/kubrakurt/su-kalitesi?scriptVersionId=68655683)
 
 * ## [Konulara Göre Veri Analizleri](https://github.com/kubrakurt/data_analysis_resources/tree/main/Örnek%20Analizler)
   * [Aykırı Gözlem Analizi](https://github.com/kubrakurt/data_analysis_resource/blob/main/%C3%96rnek%20Analizler/Ayk%C4%B1r%C4%B1%20G%C3%B6zlem%20Analizi.ipynb)
